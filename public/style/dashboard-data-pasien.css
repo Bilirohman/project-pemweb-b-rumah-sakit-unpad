@@ -1,0 +1,127 @@
+.data-panel {
+    flex: 3;
+    /* border: 1px solid #ffc107; */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar select{
+    margin-right: 3rem;
+}
+
+.jadwal-dokter-header {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table-body {
+    padding: 10px;
+}
+
+.jadwal-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: small;
+}
+
+.jadwal-table th,
+.jadwal-table td {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+.jadwal-table thead tr {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.jadwal-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.jadwal-table tbody tr:hover {
+    background-color: #ffe9a1;
+}
+
+/* Action Panel (Tambah/Edit/Hapus) */
+.action-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    margin: 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card label {
+    font-size: 14px;
+    color: #555;
+}
+
+.card input, .card select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card .btn {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card .btn-del{
+    background-color: #ff0707;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+} 
+
+.card .btn:hover {
+    background-color: #e6a900;
+}

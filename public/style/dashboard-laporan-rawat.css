@@ -1,0 +1,152 @@
+/* Wrapper untuk panel */
+.data-panel {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border: 2px solid #ffc107;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .panel-header {
+    background-color: #ffc107;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .button-group {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  /* Form */
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-select, .input-text {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Table */
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: small;
+  }
+  
+  .table-custom th, .table-custom td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .table-custom th {
+    background-color: #f1f1f1;
+  }
+  
+  /* Icons */
+  .icon {
+    cursor: pointer;
+  }
+  
+  .icon-view {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+  
+  .icon-edit {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+  
+  .icon-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+  
+  /* Pagination */
+  .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pagination ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .pagination a.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination a.disabled {
+    cursor: not-allowed;
+    color: #ccc;
+  }
+  

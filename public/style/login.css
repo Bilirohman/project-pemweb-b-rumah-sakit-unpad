@@ -1,0 +1,130 @@
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#a87b00 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+
+/* Login Box Styling */
+.login-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.input-box input {
+    width: 80%;
+    padding: 10px 40px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus {
+    outline: none;
+    border-color: #fdca21;
+    background-color: #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-150%);
+    font-size: 0.8rem;
+    color: #e3b009;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #ffc72d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #f0a503;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Forgot Password Styling */
+.forgot-link {
+    display: block;
+    margin-top: 15px;
+    color: #0984e3;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-link:hover {
+    color: #0652DD;
+    text-decoration: underline;
+}
+
+/* Error Message Styling */
+#error-message {
+    background-color: #ff7675;
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+}

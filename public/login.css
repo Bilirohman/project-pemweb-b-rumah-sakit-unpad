@@ -1,0 +1,19 @@
+<div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form method="POST" action="login.php">
+                <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <a href="#" class="forgot-link">Forgot your password?</a>
+            </form>
+        </div>
+    </div>
